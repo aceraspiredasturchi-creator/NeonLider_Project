@@ -1,26 +1,20 @@
-        .img {
-            position: absolute;
-            z-index: -1;
-            width: 1536px;
-            height: 1018px;
 
-        }   
         body {
             font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #00ffd0, #4263f8);
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 440px;
+            height: 100vh;
             margin: 0;
         }
 
         .container {
+            background: #fff;
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
             width: 400px;
-            position: absolute;
-            top: 240px;
         }
 
         h1 {
