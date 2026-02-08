@@ -1,5 +1,5 @@
 
-        body {
+body {
             font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #74ebd5, #ACB6E5);
             display: flex;
@@ -9,7 +9,7 @@
             margin: 0;
         }
 
-        .container {
+.container {
             background: #fff;
             padding: 30px;
             border-radius: 12px;
@@ -17,32 +17,28 @@
             width: 400px;
         }
 
-        h1 {
+h1 {
             text-align: center;
             color: #333;
             margin-bottom: 20px;
         }
 
-        .input-group {
+.input-group {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        #task {
+#task {
             flex: 1;
             padding: 10px;
-            border: 2px solid #ACB6E5;
+            border: 2px solid #8690bc;
             border-radius: 8px;
             outline: none;
             transition: 0.3s;
         }
 
-        #task:focus {
-            border-color: #74ebd5;
-        }
-
-        button {
+button {
             padding: 10px 15px;
             margin-left: 10px;
             border: none;
@@ -52,20 +48,20 @@
             border-radius: 8px;
             cursor: pointer;
             transition: 0.3s;
+            border: 2px solid #8690bc;
         }
 
-        button:hover {
-            background: #4bb4a8;
+button:hover {
+            background: #3ccbba;
         }
 
-        ul {
+ul {
             list-style: none;
             padding: 0;
             margin-top: 20px;
         }
 
-        li {
-            background: #f4f4f4;
+li {
             padding: 10px;
             margin-bottom: 10px;
             border-radius: 8px;
@@ -74,15 +70,15 @@
             transition: 0.3s;
         }
 
-        li:hover {
-            background: #e0e0e0;
+li:hover {
+            background: #cee0ee;
         }
 
-        li input[type="checkbox"] {
+li input[type="checkbox"] {
             margin-right: 10px;
         }
 
-        li.completed {
+li.completed {
             text-decoration: line-through;
             color: gray;
         }
