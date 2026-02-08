@@ -1,5 +1,5 @@
 
-body {
+        body {
             font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #74ebd5, #ACB6E5);
             display: flex;
@@ -9,7 +9,7 @@ body {
             margin: 0;
         }
 
-.container {
+        .container {
             background: #fff;
             padding: 30px;
             border-radius: 12px;
@@ -17,19 +17,19 @@ body {
             width: 400px;
         }
 
-h1 {
+        h1 {
             text-align: center;
             color: #333;
             margin-bottom: 20px;
         }
 
-.input-group {
+        .input-group {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-#task {
+        #task {
             flex: 1;
             padding: 10px;
             border: 2px solid #8690bc;
@@ -38,7 +38,7 @@ h1 {
             transition: 0.3s;
         }
 
-button {
+        button {
             padding: 10px 15px;
             margin-left: 10px;
             border: none;
@@ -51,17 +51,17 @@ button {
             border: 2px solid #8690bc;
         }
 
-button:hover {
+        button:hover {
             background: #3ccbba;
         }
 
-ul {
+        ul {
             list-style: none;
             padding: 0;
             margin-top: 20px;
         }
 
-li {
+        li {
             padding: 10px;
             margin-bottom: 10px;
             border-radius: 8px;
@@ -70,15 +70,15 @@ li {
             transition: 0.3s;
         }
 
-li:hover {
-            background: #cee0ee;
+        li:hover {
+            background: #bfd9ee;
         }
 
-li input[type="checkbox"] {
+        li input[type="checkbox"] {
             margin-right: 10px;
         }
 
-li.completed {
+        li.completed {
             text-decoration: line-through;
             color: gray;
         }
