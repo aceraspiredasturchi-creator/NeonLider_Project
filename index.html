@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo List</title>
-<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="todolist.css">
 </head>
-<body> 
-    <div class="container">
-        <h1>Eslatma</h1>
-        <div class="input-group">
-            <input type="text" id="task" placeholder="Yangi eslatma qoshish">
-            <button onclick="vazifaQoshish()">Qo'shish</button>
+
+<body>
+    <div class="todo">
+        <h1>Todo List +</h1>
+
+        <div class="input-row">
+            <input id="taskInput" type="text" placeholder="Add new todo" />
+            <button onclick="vazifaQoshish()">Add</button>
         </div>
-        <ul id="list">
-            <li></li>
-        </ul>
+
+        <div class="input-row">
+            <input id="searchInput" type="text" placeholder="Search something..." />
+            <button onclick="vazifaQidirish()">Search</button>
+        </div>
+
+        <ul id="list"></ul>
     </div>
-    <script  src="./script.js"></script>
+
+    <script src="script.js"> </script>
+
 </body>
+
 </html>
