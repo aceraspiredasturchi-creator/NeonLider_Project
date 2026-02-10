@@ -72,13 +72,3 @@
         li:hover {
             background: #bfd9ee;
         }
-
-        li input[type="checkbox"] {
-            margin-right: 10px;
-        }
-
-        li.completed {
-            text-decoration: line-through;
-            color: gray;
-        }
-   
